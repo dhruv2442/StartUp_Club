@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="drd_success.ico" />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <img class="wave" src="wave.png" alt="wave" />
+    <div class="container">
+      <div class="img" >
+        <img src="bg.svg" alt="phone" />
+      </div>
+      <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" >
+            <i  class="fa fa-2x fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" >
+            <i class="fa fa-2x fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" >
+            <i class="fa fa-2x fa-linkedin"></i></a>
+        </div>
+        <form id="login" class="input-group">
+            <input type="text" class="input-feild" placeholder="User Id" required>
+            <input type="password" class="input-feild" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box" value="rm" id="rm"><label for="rm">Remember Password</label>
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form id="register" class="input-group">
+            <input type="text" class="input-feild" placeholder="User Id" required>
+            <input type="email" class="input-feild" placeholder="Email Id" required>
+            <input type="password" class="input-feild" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>I agree the terms & conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+    
+</div>
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+     function register(){
+         x.style.left = "-400px";
+         y.style.left = "50px";
+         z.style.left = "110px";
+         
+
+     }
+     function login(){
+         x.style.left = "50px";
+         y.style.left = "450px";
+         z.style.left = "0px";
+         
+
+     }
+
+</script>
+    </div>
+    <div>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+        <script src="deep.js"></script>
+    </div>
+  </body>
+</html>
