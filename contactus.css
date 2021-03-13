@@ -1,73 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *
 {
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-section
+.contact
 {
-    position:absolute;
+    position:relative;
+    min-height: 100vh;
+    padding:50px 100px;
     display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #111d42;
+    flex-direction: column;
+    background: url(contactus1.jpg);
+    background-size: cover;
 }
-section::before
+.contact .content
 {
-    content:' ';
-    position:absolute;
-    top:0;
-    left:0;
-    width:50%;
-    height:100%;
-    background:#03a9f4;
+    max-width: 800px;
+    text-align:center;
 }
-section .container
+ .contact .content h2
 {
-    position:relative;
-    min-width: 11000px;
-    min-height: 550px;
+    font-size:36px;
+    font-weight:500;
+    color:#00bcd4;
+}
+.contact .content p
+{
+    font-weight:300;
+    color:#fff;
+}
+.container
+{
+    width:100%;
     display:flex;
-    z-index:1000;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
-section .container .contactinfo
+.container .contactInfo
 {
-    position:absolute;
-    top:40px;
-    width:350px;
-    height:calc(100% - 80px);
-    background:#0f3959;
-    z-index: index 1;
-    padding:40px;
+    width:50%;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
-    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
-
 }
-section .container .contactinfo h2
-{
-    color:#ffff;
-    font-size:24px;
-    font-weight: 500;
-}
-section .container .contactinfo .info
+.container .contactInfo .box
 {
     position:relative;
-    margin:20px 0;
-
+    padding:20px 0;
+    padding-left: 200px;
+    display:flex;
 }
-section .container .contactinfo .info li
+.container .contactInfo .box .icon
+{
+    min-width:60px;
+    height:60px;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    font-size:22px;
+}
+.container .contactInfo .box .text
+{
+    display:flex;
+    margin-left: 20px;
+    font: size 16px;
+    color:#fff;
+    flex-direction:column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight:500;
+    color:#00bcd4;
+}
+.contactForm
+{
+    width:40%;
+    padding:40px;
+    background: #fff;
+}
+.contactForm h2
+{
+    font-size:30px;
+    color:#333;
+    font-weight:500;
+}
+.contactForm .inputBox
 {
     position:relative;
-    list-style:none;
-    margin:20px 0;
+    width:100%;
+    margin-top:10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width:100%;
+    padding:5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border:none;
+    border-bottom:2px solid #333;
+    outline :none;
+    resize:none;
+}
+.contactForm .inputBox span
+{
+    position:absolute;
+    left:0;
+    padding:5px 0;
+    font-size:16px;
+    margin:10px 0;
+    pointer-events:none;
+    transform: 0.5s;
+    color:#666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+         color:#e91e63;
+         font-size:12px;
+         transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width:100px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 25px;
+    color:#fff;
+    border:none;
     cursor:pointer;
-    align-items:flex-start;
+    padding:10px;
+    font-size:18px;
 }
-section .container .contactinfo .info li span:nth-child(1)
+@media (max-width:991px)
 {
-    
-}
+    .contact
+    {
+        padding:50px;
+    }
+    .container
+    {
+        flex-direction:column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,.contactForm
+    {
+        width:100%;
+    }
+
+} 
