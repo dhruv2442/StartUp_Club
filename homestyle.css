@@ -50,6 +50,7 @@
 }
 .home_left .join .join_btn {
   align-items: center;
+  cursor:pointer;
   margin-left: 0px;
   justify-content: center;
   background-color: transparent;
@@ -58,6 +59,7 @@
   border-color: rgb(218, 67, 67);
 }
 .home_left .join .join_btn:hover{
+  cursor:pointer;
   background: linear-gradient(to right, #ff105f, #ffad06);
 }
 .home_image {
