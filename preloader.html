@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Preloader</title>
+    <style type="text/css">
+      body{
+          
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-repeat: no-repeat;
+          background-image: url('loading.jpg');
+          height: 80%;
+          /*background-position: center;*/
+          background-size: cover;
+      }
+      .loader{
+          width: 500px;
+          margin:150px auto 70px;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+
+      }
+      .loader .loading_1{
+          position: relative;
+          width: 100%;
+          height:10px;
+          border: 1px solid #101a31;
+         border-radius: 10px;
+         animation: turn 4s linear 1.75s infinite;
+      }
+      .loader .loading_1:before{
+          content: "";
+          display: block;
+          position:absolute;
+          width: 0;
+          height: 100%;
+          background-color: #101a31;
+          box-shadow: 10px 0px 15px 0px #101a31;
+          animation: load 2s linear infinite;
+          }
+          .loader .loading_2{
+          position: absolute;
+          width: 100%;
+          top: 10px;
+          font-size: 22px;
+          color: #101a31;
+          text-align: center;
+         animation: bounce 2s linear infinite;
+      }
+      @keyframes load {
+          0%{
+             width: 0%;
+          }
+          87.5%{
+            width: 100%; 
+          }
+      }
+          @keyframes turn {
+          0%{
+             transform: rotate(0deg);
+          }
+          6.25%, 50%{
+            transform: rotate(180deg);
+          }
+          56.25%, 100%{
+            transform: rotate(360deg);
+          }
+          
+          
+      }
+      @keyframes bounce{
+          0%,100%{
+             top: 10px;
+          }
+          12.5%{
+            top: 30px; 
+          }
+      }
+      .image{
+          border-radius: 100%;
+          size: 200px;
+          animation: rotate 2s linear infinite;
+          
+        
+      }
+
+    </style>
+</head>
+<body>
+<div class="loader">
+    
+    <div class="loading_1"></div>
+    <div class="loading_2">Loading..<br>Please wait</div>
+    
+</div>
+</body>
+</html>
