@@ -6,6 +6,9 @@
 .body {
   font-family: "Baloo Bhai 2", cursive;
 }
+*:focus {
+    outline: 0 !important;
+}
 #home {
   display: flex;
 }
