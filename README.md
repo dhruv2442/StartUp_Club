@@ -5,14 +5,13 @@
 
 2. How are you trying to solve the problem like what is your approach??
 
-    In this website you can join club of your favourite techs like AI, ML, Cloud Computing, Flutter etc. In this you can ask for your valuable feedbacks from the industry experts      for whether it be your some college project or on your Startup idea or any of the tech stacks you are working on.
+    In this website you can join club of your favourite techs like AI, ML, Cloud Computing, Flutter etc. In this you can ask for your valuable feedbacks from the industry experts     for whether it be your some college project or on your Startup idea or any of the tech stacks you are working on.
 
 3. The Tech stack used are HTML, CSS, JavaScript, Php, Jquery
 
 4. Video of the project: https://drive.google.com/file/d/196BsnyTtzYhbnXfhY-se3WBu3u3ULam3/view?usp=drivesdk
 
-5. Links:
-   Dhruv Dalal: https://drive.google.com/file/d/1mctEzOAmKX3CyHKmpMHuY_2eCiUU88sx/view (Resume)
+5. Dhruv Dalal: https://drive.google.com/file/d/1mctEzOAmKX3CyHKmpMHuY_2eCiUU88sx/view (Resume)
 
    https://www.linkedin.com/in/dhruv-dalal-087658198/ (LinkedIn)
    
