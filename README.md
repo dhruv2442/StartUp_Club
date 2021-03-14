@@ -1,4 +1,5 @@
 # StartUp_Club
+Team : drd_success
 1. What is the definition that you are working on??
 
     As we know many of freshers/college aspirants are not able to take precious knowledge from the industry experts, it may be their startup or their unique projects. So we are        here with a quiet unique Startup club web application idea.
