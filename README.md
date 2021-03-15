@@ -1,10 +1,10 @@
 # StartUp_Club
 Team : drd_success
-1. What is the definition that you are working on??
+1. What is the definition that we are working on??
 
     As we know many of freshers/college aspirants are not able to take precious knowledge from the industry experts, it may be their startup or their unique projects. So we are        here with a quiet unique Startup club web application idea.
 
-2. How are you trying to solve the problem like what is your approach??
+2. How are we trying to solve the problem like what is our approach??
 
     In this website you can join club of your favourite techs like AI, ML, Cloud Computing, Flutter etc. In this you can ask for your valuable feedbacks from the industry experts     for whether it be your some college project or on your Startup idea or any of the tech stacks you are working on.
 
