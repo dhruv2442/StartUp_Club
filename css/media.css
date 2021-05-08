@@ -1,0 +1,6 @@
+@media only screen and (max-width: 860px) and (min-width: 450px) {
+    .box {
+        flex-basis: 80%;
+        align-self: center;
+    }
+}

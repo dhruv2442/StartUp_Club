@@ -1,0 +1,94 @@
+nav {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+#logo img {
+  height: 105px;
+  margin-top: 10;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.navbar ul li {
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+}
+.navbar ul li a {
+  color: rgb(25, 0, 134);
+  display: block;
+  font-weight: bold;
+  padding: 3px 23px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    display: inline-block;
+    color: rgba(47, 0, 255, 0.863);
+    font-family: "Baloo Bhai 2", cursive;
+    padding: 3px 23px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    display: inline-block;
+    background-color: transparent;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 35px;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    background-color: rgb(211, 154, 154);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .navbar ul li a:hover {
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    font-weight: bold;
+    color: white;
+  }

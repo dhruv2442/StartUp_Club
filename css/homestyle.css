@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Baloo Bhai 2", cursive;
+}
+*:focus {
+  outline: 0 !important;
+}
+
+/* Header css all set*/
+header {
+  width: 100%;
+  height: 100vh;
+}
+header::before {
+  background: url("../img/hd_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  overflow: hidden;
+}
+.text {
+  color: rgb(218, 67, 67);
+  margin: auto;
+  margin-top: 120px;
+  max-width: 700px;
+  text-align: center;
+}
+.text h1 {
+  font-size: 50px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.text h3 {
+  font-size: 30px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.text p {
+  font-size: 20px;
+  font-family: "Baloo Bhai 2", cursive;
+  color: black;
+}
+.join_btn {
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 23px;
+  padding: 10px 50px;
+  border-color: rgb(218, 67, 67);
+}
+.join_btn:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+}
+
+/* why to choose us section*/
+#why {
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#why h1 {
+  color: rgb(218, 67, 67);
+    font-size: 50px;
+    font-family: "Baloo Bhai 2", cursive;
+}
+#why p {
+  font-size: 20px;
+  margin: 20px auto;
+  font-weight: 900;
+  font-family: "Baloo Bhai 2", cursive;
+  color: black;
+  text-align: center;
+  max-width: 70%;
+}
+
+/* services section startrd */
+#services-container{
+  width: 100%;
+  text-align: center;
+}
+#services-container h1 {
+  color: rgb(218, 67, 67);
+    font-size: 50px;
+    font-family: "Baloo Bhai 2", cursive;
+}
+#services {
+  margin: 34px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.box {
+  flex-basis: 30%;
+  border: 2px solid brown;
+  padding: 17px;
+  margin: 3px 17px;
+  border-radius: 23px;
+  transform-style: preserve-3d;
+  background-color: white;
+}
+
+.box img {
+  height: 160px;
+  margin: auto;
+  
+  clip-path: polygon(0% 15%, 4% 5%, 15% 0%, 85% 0%, 95% 5%, 100% 15%, 100% 85%, 95% 94%, 85% 100%, 15% 100%, 4% 95%, 0% 85%);
+}
+.box:hover img{
+  transform: translateZ(20px);
+}
+.box h3 {
+  font-size: 30px;
+  margin: 20px auto;
+  font-family: "Baloo Bhai 2", cursive;
+  color: rgb(218, 67, 67);
+}
+#sponsers{
+  width: 100%;
+  text-align: center;
+}
+#sponsers h1 {
+  color: rgb(218, 67, 67);
+    font-size: 50px;
+    font-family: "Baloo Bhai 2", cursive;
+}
+/* #sponsers a {
+  height: 85px;
+  width: 85px;
+  border-radius: 40px;
+  background-color: #f5f6fa;
+  text-align: center;
+  margin: 10px;
+  line-height: 100px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+} */
+/* #sponsers a i {
+  transition: all 0.3s linear;
+}
+#sponsers a:hover i {
+  transform: scale(1.4);
+} */
+/* .icons {
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+/* footer css */
+#footer {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+}
+.wrapper{
+  /* display: inline-flex; */
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.wrapper .icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 50;
+  cursor: pointer;
+}
+
+.wrapper .icon span{
+  height: 85px;
+  width: 85px;
+  margin: 10px 10px;
+  display: block;
+  background: #f5f6fa;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(124, 59, 72);
+}
+.wrapper .icon span i{
+  transition: all 0.3s linear;
+  line-height: 80px;
+}
+.wrapper .icon .tooltip{
+  font-family: "Baloo Bhai 2", cursive;
+  position: absolute;
+  top: 0px;
+  position: relative;
+  z-index: 2;
+  background: #fcf9f4;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 25px;
+  border-radius: 25px;
+  padding: 7px 15px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+  transition: all 0.4s cubic-bezier(0.68,-0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip{
+  opacity: 1;
+  top: -10px;
+  pointer-events: auto;
+}
+.wrapper .icon:hover span{
+  box-shadow: 0px -1px 0px #dcdde1;
+}
+.wrapper .icon:hover i{
+transform: scale(1.4);
+}
+
+.wrapper .icon .tooltip::before{
+position: absolute;
+content: "";
+height: 15px;
+width: 15px;
+background: #fcf9f4;
+bottom: -8px;
+left: 50%;
+transform: translateX(-50%) rotate(45deg);
+}
+
+.wrapper .facebook:hover .tooltip a,
+.wrapper .facebook:hover span
+{
+  color: #3B5999;
+}
+.wrapper .facebook:hover .tooltip::before{
+  background-color: #3B5999;
+}
+
+.wrapper .windows:hover  .tooltip a,
+.wrapper .windows:hover span i,
+.wrapper .windows:hover .tooltip::before{
+  color:   rgb(0,168,233);
+}
+.wrapper .windows:hover .tooltip::before{
+  background-color:   rgb(0,168,233);
+}
+
+.wrapper .linkedin:hover  .tooltip a,
+.wrapper .linkedin:hover span i,
+.wrapper .linkedin:hover .tooltip::before{
+  color:   rgb(0,115,177);
+}
+.wrapper .linkedin:hover .tooltip::before{
+  background-color:   rgb(0,115,177);
+}
+.wrapper .amazon:hover  .tooltip a,
+.wrapper .amazon:hover span i,
+.wrapper .amazon:hover .tooltip::before{
+  color:   #fa9601;
+}
+.wrapper .amazon:hover .tooltip::before{
+  background-color:   #fa9601;
+}
+.wrapper .github:hover  .tooltip a,
+.wrapper .github:hover span i,
+.wrapper .github:hover .tooltip::before{
+  color:   rgb(13, 37, 52);
+}
+.wrapper .github:hover .tooltip::before{
+  background-color:   rgb(13, 37, 52);
+}
+.wrapper .apple:hover  .tooltip a,
+.wrapper .apple:hover span i,
+.wrapper .apple:hover .tooltip::before{
+  color:   rgb(102, 102, 102);
+}
+.wrapper .apple:hover .tooltip::before{
+  background-color:   rgb(102, 102, 102);
+}
+#sponsers a{
+  text-decoration: none;
+}
+

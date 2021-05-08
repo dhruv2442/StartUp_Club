@@ -1,0 +1,63 @@
+.cardPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 5px solid rgb(218, 67, 67);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background:linear-gradient(120deg,rgb(53, 197, 53),white,rgb(36, 36, 250));
+    padding-bottom: 20px;
+}
+.card{
+    flex-basis: 20%;
+    margin: 20px;
+    margin-top: 30px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.card img{
+  height: 180px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: linear;
+}
+h1{
+    text-align: center;
+  padding: 40px 40px 0px 40px;
+  font-size: 50px;
+  font-family: "Baloo Bhai 2", cursive;
+  color: rgb(218, 67, 67);
+
+}
+#footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+  }
+  #bkhome {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 10px 30px ;
+    cursor: pointer;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  *:focus {
+    outline: 0 !important;
+  }
+  
+  #bkhome i{
+    margin-left: 5px;
+    margin-right: 5px;
+  
+  }
+  
