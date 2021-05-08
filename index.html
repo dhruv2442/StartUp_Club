@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="homestyle.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo2.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bree+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-        <script src="deep.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>StartUp Club</title>
-        <style>
-        .footer {
-         position:fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: black;
-          color: white;
-          text-align: center;
-        }
-        </style>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/homestyle.css" />
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo2.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bree+Serif&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>StartUp Club</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header id="home">
     <nav class="navbar">
       <div id="logo">
         <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-        <script src="deep.js"></script>
+        <script src="/js/deep.js"></script>
         <img src="img/logo2.png" alt="Logo" />
       </div>
       <ul>
         <li class="item"><a href="index.html">Home</a></li>
-        <li class="item"><a href="login.html">Login/Register</a></li>
-        <li class="item"><a href="main.html">Clubs</a></li>
+        <li class="item"><a href="./html/login.html">Login/Register</a></li>
+        <li class="item"><a href="clubs.html">Clubs</a></li>
         <li class="item"><a href="expert.html">Expert Advice</a></li>
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropbtn">Know more..</a>
@@ -47,77 +41,98 @@
         </li>
       </ul>
     </nav>
-    <section id="Home">
-      <div class="home_left">
-        <div class="home_must">
-          <h1>Welcome To StartUp Club</h1>
-        </div>
-        <p>You Think,Built...We Advertise!</p>
-        <div class="join">
-          <a href="login.html">
-          <button class="join_btn" type="submit"><h4>Join Us</h4></button></a>
-        </div>
-        <div class="why">
-          <div class="why_left">
-            <h1>Why to choose us??</h1>
-            <p>
-              A quite unique web app idea where one can create a Startup Club in
-              the form of web application, wherein one can allow users to submit
-              their startup for promoting/advertising their own business on the
-              platform. college aspirants can also keep their projects and have
-              feedbacks from the industry experts.
-            </p>
-          </div>
-        </div>
-        <section class="services-container">
-          <h1 class="h-primary center">Our Services</h1>
-          <div id="services">
-            <div class="box">
-              <img src="img/1_YkEbn-V6DkmAJSM4FZe4Xg.png" alt="Image" />
-              <h3>Forming Tech Clubs</h3>
-            </div>
-            <div class="box">
-              <img src="img/low-cost-advertising-for-startups.png" alt="Image" />
-              <h3 >Advertise the StartUps</h3>
-            </div>
-            <div class="box">
-              <img src="img/logoe.png" alt="Image" />
-              <h3>Expert Advise</h3>
-          </div>
-        </section>
-        <div class="sponsers">
-          <h1>Our Sponsors</h1>
-          <div class="icons">
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="fa fa-2x fa-facebook-f"></i
-            ></a>
-            <a href="https://www.instagram.com" target="_blank">
-              <i class="fa fa-2x fa-windows"></i
-            ></a>
-            <a href="https://www.linkedin.com" target="_blank">
-              <i class="fa fa-2x fa-linkedin"></i
-            ></a>
-            <a href=""><i class="fa fa-2x fa-amazon"></i></a>
-            <a href=""><i class="fa fa-3x fa-github"></i></a>
-            <a href=""><i class="fa fa-3x fa-apple"></i></a>
-          </div>
-        </div>
-          
-          </div>
-        
-      </div> 
-      <div class="svg_image">
-        <img
-          class="home_image"
-          src="img/undraw_best_place_r685.svg"
-          alt="home"
-        />
-       <div class="footer">
-        <p>Copyright &copy; drd_success 
-            <br>
-             Email:drd_success@hackathon.com | Ph:1234567890</p>
+    <div class="text">
+      <h1>Welcome To StartUp Club</h1>
+      <p>You Think,Build...We Advertise!</p>
+      <a href="./html/login.html">
+        <button class="join_btn" type="submit">
+          <h4>Join Us</h4>
+        </button></a>
+    </div>
+  </header>
+
+  <section id="why">
+      <h1>Why to choose us??</h1>
+      <p>
+        A quite unique web app idea where one can create a Startup Club in
+        the form of web application, wherein one can allow users to submit
+        their startup for promoting/advertising their own business on the
+        platform. college aspirants can also keep their projects and have
+        feedbacks from the industry experts.
+      </p>
+  </section>
+  <section id="services-container">
+    <h1 >Our Services</h1>
+    <div id="services">
+      <div class="box" data-tilt>
+        <img src="img/srvs1.png" alt="Image" />
+        <h3>Forming Tech Clubs</h3>
       </div>
-    </section>
-      
-  </body>
+      <div class="box"data-tilt>
+        <img src="img/srvs2.png" alt="Image" />
+        <h3>Advertise the StartUps</h3>
+      </div>
+      <div class="box"data-tilt>
+        <img src="img/srvs3.png" alt="Image" />
+        <h3>Expert Advise</h3>
+      </div>
+  </section>
+  <!-- sponsers section started -->
+  <section id="sponsers">
+    <h1>Our Sponsors</h1>
+    <!-- <div class="icons">
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fa fa-2x fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fa fa-2x fa-windows"></i></a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <i class="fa fa-2x fa-linkedin"></i></a>
+      <a href=""><i class="fa fa-2x fa-amazon"></i></a>
+      <a href=""><i class="fa fa-3x fa-github"></i></a>
+      <a href=""><i class="fa fa-3x fa-apple"></i></a>
+    </div> -->
+    <div class="wrapper">
+      <div class="icon facebook">
+        <div class="tooltip"><a href="https://www.facebook.com" target="_blank">Facebook</a></div>
+        <span><i class="fa fa-2x fa-facebook-f"></i></span> 
+      </div>
+      <div class="icon windows">
+        <div class="tooltip"><a href="https://www.microsoft.com/en-in" target="_blank">Windows</a></div>
+        <span><i class="fa fa-2x fa-windows"></i></span> 
+      </div>
+      <div class="icon linkedin">
+        <div class="tooltip"><a href="https://www.linkedin.com" target="_blank">Linkedin</a></div>
+        <span><i class="fa fa-2x fa-linkedin"></i></span> 
+      </div>
+      <div class="icon amazon">
+        <div class="tooltip"><a href="https://www.amazon.in" target="_blank">Amazon</a></div>
+        <span><i class="fa fa-2x fa-amazon"></i></span> 
+      </div>
+      <div class="icon github">
+        <div class="tooltip"><a href="https://www.github.com" target="_blank">Github</a></div>
+        <span><i class="fa fa-3x fa-github"></i></span> 
+      </div>
+      <div class="icon apple">
+        <div class="tooltip"><a href="https://www.apple.com" target="_blank">Apple</a></div>
+        <span><i class="fa fa-3x fa-apple"></i></span> 
+      </div>
+    </div>
+  </section>
+
+  <!-- footer started -->
+  <section id="footer">
+    <p>Copyright &copy; drd_success
+      <br>
+      Email:drd_success@hackathon.com | Ph:9090909090 | All Rights Reserved
+    </p>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="js/tilt.jquery.min.js">
+  $('.js-tilt').tilt({
+    glare: true,
+    maxGlare: .5
+})</script>
+
+</body>
+
 </html>
