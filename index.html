@@ -19,7 +19,8 @@
   </style>
 </head>
 
-<body>
+<body onload="myFunction()">
+  <div id="loading"></div>
   <header id="home">
     <nav class="navbar">
       <div id="logo">
@@ -132,6 +133,12 @@
     glare: true,
     maxGlare: .5
 })</script>
+    <script>
+      var preloader = document.getElementById("loading");
+      function myFunction(){
+        preloader.style.display = 'none';
+      };
+    </script>
 
 </body>
 
