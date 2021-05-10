@@ -52,4 +52,7 @@
       .box:hover img{
           transform: 0;
       }
+    #footer{
+        height:90px;
+    }
   }
