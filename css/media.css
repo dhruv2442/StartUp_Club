@@ -4,3 +4,52 @@
         align-self: center;
     }
 }
+@media only screen and (max-device-width: 450px) {
+    header::before {
+      background:url(../img/photo-1620205391376-7cde81ffb112.jpg);
+      clip-path: none;
+      opacity: 0.5;
+    }
+    .text h1,.text p,.text h4{
+        color: black;
+    }
+    .menu{
+        display: none;
+    }
+    #menubar {
+        position: fixed;
+        top: 10px;
+        left: 20px;
+        width: 40px;
+        cursor: pointer;
+      }
+      #sidenav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0px;
+        height: 100vh;
+        background: orange;
+        padding: 100px 0px;
+        transition: 0.4s;
+        display: block;
+        z-index: 99999999;
+      }
+      #sidenav a {
+        text-decoration: none;
+        color: white;
+        font-family: "Baloo Bhai 2", cursive;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 10px 0px;
+        padding: 20px;
+        display: block;
+      }
+      #sidenav a:hover {
+        background: linear-gradient(70deg, rgb(226, 38, 38), rgb(201, 107, 107));
+        border-radius: 25px;
+      }
+      .box:hover img{
+          transform: 0;
+      }
+  }
