@@ -24,7 +24,7 @@ header {
   height: 100vh;
   background: #F97B4a url("../img/1496.gif") no-repeat center
     center;
-  z-index: 99999;
+  z-index: 999999999;
 }
 header::before {
   background: url("../img/hd_bg.svg");
