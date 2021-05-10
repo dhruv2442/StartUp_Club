@@ -28,7 +28,7 @@
         <script src="./js/deep.js"></script>
         <img src="img/logo2.png" alt="Logo" />
       </div>
-      <ul>
+      <ul class="menu">
         <li class="item"><a href="index.html">Home</a></li>
         <li class="item"><a href="./html/login.html">Login/Register</a></li>
         <li class="item"><a href="clubs.html">Clubs</a></li>
@@ -51,6 +51,14 @@
         </button></a>
     </div>
   </header>
+  <section id="sidenav">
+    <img id="menubar" src="./img/download.png" alt="">
+    <a href="index.html">Home</a>
+        <a href="./html/login.html">Login/Register</a>
+        <a href="clubs.html">Clubs</a>
+        <a href="about.html">AboutUs</a>
+        <a href="contactus.html">ContactUs</a>
+  </section>
 
   <section id="why">
       <h1>Why to choose us??</h1>
@@ -133,12 +141,28 @@
     glare: true,
     maxGlare: .5
 })</script>
-    <script>
-      var preloader = document.getElementById("loading");
-      function myFunction(){
-        preloader.style.display = 'none';
-      };
-    </script>
+<script>
+  var preloader = document.getElementById("loading");
+  function myFunction(){
+    preloader.style.display = 'none';
+  };
+</script>
+<script>
+  var menu=document.getElementById("menubar");
+  var sidenav=document.getElementById("sidenav");
+  var box = document.getElementsByClassName("edu-box");
+  sidenav.style.width="0px" ;
+  menu.onclick=function(){
+    if(sidenav.style.width=="0px"){
+      sidenav.style.width="250px";
+      menu.src="./img/cross.svg";
+    }
+    else{
+      sidenav.style.width="0px";
+      menu.src="./img/download.png";
+    }
+  }
+  </script>
 
 </body>
 
