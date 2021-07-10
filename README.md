@@ -34,3 +34,8 @@ Team : drd_success
    https://www.linkedin.com/in/deep3072/ (LinkedIn)
                
    https://github.com/deep3072 (Github)
+   
+   
+   
+   Open in VS Code
+   [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/dhruvdalal/StartUp_Club)
