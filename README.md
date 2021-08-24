@@ -18,21 +18,17 @@ Website Link
 4. ## Video of the project: https://drive.google.com/file/d/196BsnyTtzYhbnXfhY-se3WBu3u3ULam3/view?usp=drivesdk
 
 5. ## Dhruv Dalal: 
-   https://drive.google.com/file/d/1mctEzOAmKX3CyHKmpMHuY_2eCiUU88sx/view (Resume)
-
    https://www.linkedin.com/in/dhruv-dalal-087658198/ (LinkedIn)
    
    https://github.com/DhruvDalal (Github)
                  
    ## Riya Parmar:
-    https://drive.google.com/file/d/196BsnyTtzYhbnXfhY-se3WBu3u3ULam3/view?usp=drivesdk (Resume)
    
    https://www.linkedin.com/in/riya-parmar-4ba3a01b6/ (LinkedIn)
                 
    https://github.com/riya2009-par (Github)
                 
    ## Deep Shah :  
-   https://docs.google.com/document/d/1AA7kiT6TQxFgHe2zFtXA9XivOxi00rx9WMdFW4VqzTU/edit (Resume)
    
    https://www.linkedin.com/in/deep3072/ (LinkedIn)
                
